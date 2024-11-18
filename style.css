@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: : antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'ubuntu' , sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+padding: 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 8px; 
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: wheat;
+    display : flex;
+    margin: 120px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 14px;
+    background-image: url('https://media.vozpopuli.com/2022/08/Coldplay-Wembley-Hi-Res-Credit-Robert-Mallows-min-e1661498841998.jpg');
+}
+.bottom{
+  position : sticky;
+  height: 130px;
+  background-color: black;  
+  bottom: 0;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myprogressbar{
+    width: 80vw;
+   cursor: pointer;
+}
+i{
+    color: white;
+}
+.icons{
+    margin-top: 14px;
+    height: 40px;
+     
+}
+.icons i{
+    cursor:pointer;
+}
+.songitem{
+    height:50px;
+    display: flex;
+    background-color: rgb(79, 63, 55);
+    width: 120%;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 23px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 35px  ;
+}
+.songinfo{
+    color: white;
+    left:0%;
+    display: contents;
+}
